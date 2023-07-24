@@ -102,7 +102,7 @@ The requirements for this project is broken down into six different parts which 
 ![image](https://user-images.githubusercontent.com/64007718/235310476-98db1649-0fb4-45f5-bfc4-8892afc8bc80.png)
 ![image](https://user-images.githubusercontent.com/64007718/235310486-98404d97-ed11-4be2-90c3-535f538cfdc9.png)
 
-# Tasks performed:
+## Tasks performed:
 •	Built a solution architecture for a data engineering solution using Azure Databricks, Azure Data Lake Gen2, Azure Data Factory, and Power BI.
 
 •	Created and used Azure Databricks service and the architecture of Databricks within Azure.
@@ -123,7 +123,7 @@ The requirements for this project is broken down into six different parts which 
 
 •	Connected to the Azure Databricks tables from PowerBI.
 
-# Spark (Only PySpark and SQL)
+## Spark (Only PySpark and SQL)
 •	Spark architecture, Data Sources API, and Dataframe API.
 
 •	PySpark - Ingested CSV, simple, and complex JSON files into the data lake as parquet files/ tables.
@@ -140,7 +140,7 @@ The requirements for this project is broken down into six different parts which 
 
 •	Implemented full refresh and incremental load patterns using partitions.
 
-# Delta Lake
+## Delta Lake
 •	Performed Read, Write, Update, Delete, and Merge to delta lake using both PySpark as well as SQL.
 
 •	History, Time Travel, and Vacuum.
@@ -149,7 +149,7 @@ The requirements for this project is broken down into six different parts which 
 
 •	Implemented incremental load pattern using delta lake.
 
-# Azure Data Factory
+## Azure Data Factory
 •	Created pipelines to execute Databricks notebooks.
 
 •	Designed robust pipelines to deal with unexpected scenarios such as missing files.
@@ -161,7 +161,9 @@ The requirements for this project is broken down into six different parts which 
 •	Monitored the triggers/ pipelines to check for errors/ outputs.
 
 # About the Project:
+
 <h3>Folders:</h3>
+
 - 1-Authentication: The folder contains all notebooks to demonstrate different ways to access Azure Data Lake Gen2 containers into the Databricks file system.
 - 
 - 2-includes: The folder contains notebooks with common functions and path configurations.
