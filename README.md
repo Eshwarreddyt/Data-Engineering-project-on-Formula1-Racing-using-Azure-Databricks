@@ -1,8 +1,8 @@
 # Formula1-Data-Engineering-Project-Using-Azure-Databricks
+<h3>Project Overview:</h3>
+This repository aims to provide a data analysis solution for Formula 1 race results using Databricks. The data is sourced from ergast.com, a website dedicated to Formula 1 statistics, and is stored in Azure Datalake. Databricks is a powerful data engineering and analytics platform that provides an interactive workspace for running Apache Spark-based applications. By utilizing Databricks, this repository enables you to perform insightful analysis, visualize trends, and gain valuable insights from the Formula 1 race results. We have analyzed the drivers champion and constructor champion by loading the data from a third-party API called Ergast to **Azure Data Lake Gen 2 storage**. Data transformation and analysis are done in **Azure Databricks**. The entire process is orchestrated by **Azure Data Factory**.
 
-This repository aims to provide a data analysis solution for Formula 1 race results using Databricks. The data is sourced from ergast.com, a website dedicated to Formula 1 statistics, and is stored in Azure Datalake. Databricks is a powerful data engineering and analytics platform that provides an interactive workspace for running Apache Spark-based applications. By utilizing Databricks, this repository enables you to perform insightful analysis, visualize trends, and gain valuable insights from the Formula 1 race results. We have analyzed the drivers champion and constructor champion by loading the data from a third party API called Ergast to **Azure Data Lake Gen 2 storage**. Data transformation and analysis are done in **Azure Databricks**. The entire process is orchestrated by **Azure Data Factory**
-
-<h3>Overview</h3>
+<h3>Formula1 Overview</h3>
 Formula 1 (F1) is the top tier of single-seater auto racing worldwide, governed by the FIA. It features high-tech, powerful cars with hybrid engines. Teams compete in the Constructors' Championship, earning points based on drivers' performances. The driver with the most points wins the Drivers' Championship. Every season happens once a year, each race happens over weekends (Friday to Sunday). Each race is conducted in individual circuits. 10 Teams/Constructors will participate. Two Drivers will be assigned in a team. The season includes 20-23 races (Grands Prix) held in various countries. Safety is a priority with strict regulations and constant advancements. Pit stops for tire changes and adjustments are common. There will be a qualifying round conducted on Saturday to decide the grid positions of drivers for the Sunday match. Each race contains 50-70 laps. Pitstops will be available to change tires or cars. Race results include driver standings and constructor standings. The driver that tops the driver's standings becomes the drivers' champion and the team that tops the constructor standings becomes the constructors' champion.
 
 ## Architecture diagram
@@ -159,19 +159,21 @@ The requirements for this project is broken down into six different parts which 
 
 # About the Project:
 ## Folders
-- 1-set-up: The folder contains a notebook to mount the Azure Data Lake Gen2 containers into Databricks file system.
+- 1-Authentication: The folder contains all notebooks to demonstrate different ways to access Azure Data Lake Gen2 containers into the Databricks file system.
 - 
 - 2-includes: The folder contains notebooks with common functions and path configurations.
 - 
-- 3-utils: The folder contains a notebook to create the required databases.
+- 3-Data Ingestion: The folder contains all notebooks to ingest the data from raw to processed.
 - 
-- 4-ingestion: The folder contains all notebooks to ingest the data from raw to processed.
+- 4-raw: The folder contains all notebooks to create raw tables in SQL.
 - 
-- 5-trans: The folder contains notebooks that process data into a presentation format.
+- 5-Data Transformation: The folder contains all notebooks that transform the raw data into the processed layer.
 - 
-- 6-analysis: The folder contains notebooks with some examples of analysis.
+- 6-Data Analysis: The folder contains all notebooks which include an analysis of the data.
 - 
 - 7-demo: The folder contains notebooks with all the pre-requisite demos.
+-
+-8-Power Bi reports: This folder contains all the reports created from the analyzed data.
 
 <h3>Technologies/Tools Used:</h3>
 <ul>
