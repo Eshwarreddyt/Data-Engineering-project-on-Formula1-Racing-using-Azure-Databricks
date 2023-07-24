@@ -139,8 +139,11 @@ The requirements for this project is broken down into six different parts which 
 
 # Delta Lake
 •	Performed Read, Write, Update, Delete, and Merge to delta lake using both PySpark as well as SQL.
+
 •	History, Time Travel, and Vacuum.
+
 •	Converted Parquet files to Delta files.
+
 •	Implemented incremental load pattern using delta lake.
 
 # Azure Data Factory
