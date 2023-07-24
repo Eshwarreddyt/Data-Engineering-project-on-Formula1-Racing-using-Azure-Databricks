@@ -178,7 +178,7 @@ The requirements for this project is broken down into six different parts which 
 - 
 - 7-demo: The folder contains notebooks with all the pre-requisite demos.
 -
--8-Power Bi reports: This folder contains all the reports created from the analyzed data.
+- 8-Power Bi reports: This folder contains all the reports created from the analyzed data.
 
 <h3>Technologies/Tools Used:</h3>
 <ul>
