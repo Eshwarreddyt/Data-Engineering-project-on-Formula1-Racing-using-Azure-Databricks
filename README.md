@@ -6,9 +6,12 @@ This project aims to provide a data analysis solution for Formula-1 race results
 Formula 1 (F1) is the top tier of single-seater auto racing worldwide, governed by the FIA. It features high-tech, powerful cars with hybrid engines. Teams compete in the Constructors' Championship, earning points based on drivers' performances. The driver with the most points wins the Drivers' Championship. Every season happens once a year, each race happens over weekends (Friday to Sunday). Each race is conducted in individual circuits. 10 Teams/Constructors will participate. Two Drivers will be assigned in a team. The season includes 20-23 races (Grands Prix) held in various countries. Safety is a priority with strict regulations and constant advancements. Pit stops for tire changes and adjustments are common. There will be a qualifying round conducted on Saturday to decide the grid positions of drivers for the Sunday match. Each race contains 50-70 laps. Pitstops will be available to change tires or cars. Race results include driver standings and constructor standings. The driver that tops the driver's standings becomes the drivers' champion and the team that tops the constructor standings becomes the constructors' champion.
 
 <h3>Architecture diagram</h3>
-![Untitled drawio (1)](https://user-images.githubusercontent.com/107358349/173245389-06a3bed0-573c-4139-b451-0966055d464b.png)
 
-ER Diagram
+!(https://user-images.githubusercontent.com/107358349/173245389-06a3bed0-573c-4139-b451-0966055d464b.png)
+
+
+# ER Diagram:
+
 The structure of the database is shown in the following ER Diagram and explained in the [Database User Guide](http://ergast.com/docs/f1db_user_guide.txt)
 ![ERDiagram](http://ergast.com/images/ergast_db.png)
 
