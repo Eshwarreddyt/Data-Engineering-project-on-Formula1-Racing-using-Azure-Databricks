@@ -101,24 +101,40 @@ The requirements for this project is broken down into six different parts which 
 
 ## Tasks performed:
 •	Built a solution architecture for a data engineering solution using Azure Databricks, Azure Data Lake Gen2, Azure Data Factory, and Power BI.
+
 •	Created and used Azure Databricks service and the architecture of Databricks within Azure.
+
 •	Worked with Databricks notebooks and used Databricks utilities, magic commands, etc.
+
 •	Passed parameters between notebooks as well as created notebook workflows.
+
 •	Created, configured, and monitored Databricks clusters, cluster pools, and jobs.
+
 •	Mounted Azure Storage in Databricks using secrets stored in Azure Key Vault.
+
 •	Worked with Databricks Tables, Databricks File System (DBFS), etc.
+
 •	Used Delta Lake to implement a solution using Lakehouse architecture.
+
 •	Created dashboards to visualize the outputs.
+
 •	Connected to the Azure Databricks tables from PowerBI.
 
 # Spark (Only PySpark and SQL)
 •	Spark architecture, Data Sources API, and Dataframe API.
+
 •	PySpark - Ingested CSV, simple, and complex JSON files into the data lake as parquet files/ tables.
+
 •	PySpark - Transformations such as Filter, Join, Simple Aggregations, GroupBy, Window functions etc.
+
 •	PySpark - Created global and temporary views.
+
 •	Spark SQL - Created databases, tables, and views.
+
 •	Spark SQL - Transformations such as Filter, Join, Simple Aggregations, GroupBy, Window functions etc.
+
 •	Spark SQL - Created local and temporary views.
+
 •	Implemented full refresh and incremental load patterns using partitions.
 
 # Delta Lake
@@ -129,19 +145,29 @@ The requirements for this project is broken down into six different parts which 
 
 # Azure Data Factory
 •	Created pipelines to execute Databricks notebooks.
+
 •	Designed robust pipelines to deal with unexpected scenarios such as missing files.
+
 •	Created dependencies between activities as well as pipelines.
+
 •	Scheduled the pipelines using data factory triggers to execute at regular intervals.
+
 •	Monitored the triggers/ pipelines to check for errors/ outputs.
 
 # About the Project:
 ## Folders
 - 1-set-up: The folder contains a notebook to mount the Azure Data Lake Gen2 containers into Databricks file system.
+- 
 - 2-includes: The folder contains notebooks with common functions and path configurations.
+- 
 - 3-utils: The folder contains a notebook to create the required databases.
+- 
 - 4-ingestion: The folder contains all notebooks to ingest the data from raw to processed.
+- 
 - 5-trans: The folder contains notebooks that process data into a presentation format.
+- 
 - 6-analysis: The folder contains notebooks with some examples of analysis.
+- 
 - 7-demo: The folder contains notebooks with all the pre-requisite demos.
 
 <h3>Technologies/Tools Used:</h3>
