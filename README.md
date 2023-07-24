@@ -7,8 +7,7 @@ Formula 1 (F1) is the top tier of single-seater auto racing worldwide, governed 
 
 <h3>Architecture diagram</h3>
 
-[Diagram](https://user-images.githubusercontent.com/107358349/173245389-06a3bed0-573c-4139-b451-0966055d464b.png)
-
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/solution%20architecture.png">
 
 # ER Diagram:
 
