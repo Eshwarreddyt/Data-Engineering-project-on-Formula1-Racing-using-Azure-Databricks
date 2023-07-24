@@ -15,7 +15,7 @@ Formula 1 (F1) is the top tier of single-seater auto racing worldwide, governed 
 The structure of the database is shown in the following ER Diagram and explained in the [Database User Guide](http://ergast.com/docs/f1db_user_guide.txt)
 ![ERDiagram](http://ergast.com/images/ergast_db.png)
 
-## How it works
+## How it works:
 <h3>Source Date Files</h3>
 We are referring to open-source data from the website Ergast Developer API. Data was available from 1950 till 2022.
 
@@ -30,12 +30,12 @@ We are referring to open-source data from the website Ergast Developer API. Data
 | LapTimes  | Split CSV Files  |
 | Qualifying | Split Multi Line JSON Files | 
 
-#### Overview
+#### Execution Overview:
 - Azure Data Factory (ADF) is responsible for the execution of Azure Datarbicks notebooks as well as monitoring them. We import data from Ergast API to Azure Data Lake Storage Gen2 (ADLS). The raw data is stored in the container at **Bronze zone** (landing zone).
 - Data in the Bronze zone is ingested using Azure Databricks notebook. The data is transformed into delta tables using upsert functionality. ADF then uploads the data to ADLS **Silver zone** (standardization zone). 
 - Ingested data in **Silver zone** is transformed using Azure Databricks SQL notebook. Tables are joined and aggregated for analytical and visualization purposes. The output is loaded to the **Gold zone** (analytical zone).
 
-#### ETL pipeline
+#### ETL pipeline:
 ETL flow comprises two parts:
 - Ingestion: Process data from **Bronze zone** to **Silver zone**
 - Transformation: Process data from **Silver zone** to **Gold zone**
@@ -48,14 +48,14 @@ ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execut
 
 ![Screen Shot 2022-06-12 at 4 42 18 PM](https://user-images.githubusercontent.com/107358349/173252855-6a50be95-d7a7-481c-9438-8ae9fdc7df28.png)
 
-### Azure Resources Used for this Project
+## Azure Resources Used for this Project:
 * Azure Data Lake Storage
 * Azure Data Factory
 * Azure Databricks
 * Azure Key Vault
 
-### Project Requirements
-The requirements for this project is broken down into six different parts which are;
+## Project Requirements:
+The requirements for this project are broken down into six different parts which are
 
 #### 1. Data Ingestion Requirements
 * Ingest all 8 files into Azure data lake. 
