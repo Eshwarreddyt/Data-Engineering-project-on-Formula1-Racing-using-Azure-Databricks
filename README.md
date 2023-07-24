@@ -165,19 +165,19 @@ The requirements for this project is broken down into six different parts which 
 <h3>Folders:</h3>
 
 - 1-Authentication: The folder contains all notebooks to demonstrate different ways to access Azure Data Lake Gen2 containers into the Databricks file system.
-- 
+
 - 2-includes: The folder contains notebooks with common functions and path configurations.
-- 
+
 - 3-Data Ingestion: The folder contains all notebooks to ingest the data from raw to processed.
-- 
+
 - 4-raw: The folder contains all notebooks to create raw tables in SQL.
-- 
+
 - 5-Data Transformation: The folder contains all notebooks that transform the raw data into the processed layer.
-- 
+
 - 6-Data Analysis: The folder contains all notebooks which include an analysis of the data.
-- 
+
 - 7-demo: The folder contains notebooks with all the pre-requisite demos.
--
+
 - 8-Power Bi reports: This folder contains all the reports created from the analyzed data.
 
 <h3>Technologies/Tools Used:</h3>
